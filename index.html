@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A modern, clean, and responsive Glassmorphism Todo List application built with native CSS nesting."
+    />
+    <script src="script.js" defer></script>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-container">
+      <h1 class="todo-title">Tasks</h1>
+      <div class="input-group">
+        <textarea
+          class="input-field"
+          placeholder="Add a new task..."
+          spellcheck="false"
+        ></textarea>
+        <button class="add-btn">Add Task</button>
+      </div>
+      <ul class="task-list">
+        <li class="task-item">
+          <p class="task-text">Review project proposal lorflex</p>
+          <button class="delete-btn">Delete</button>
+        </li>
+        <li class="task-item">
+          <p class="task-text">Update dependencies</p>
+          <button class="delete-btn">Delete</button>
+        </li>
+        <li class="task-item">
+          <p class="task-text">Design system audit</p>
+          <button class="delete-btn">Delete</button>
+        </li>
+      </ul>
+      <p class="task-counter"><span class="count-of-tasks">7000</span> tasks remaining</p>
+    </main>
+  </body>
+</html>
