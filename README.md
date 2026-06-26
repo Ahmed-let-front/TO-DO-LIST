@@ -3,7 +3,8 @@
 A ultra-minimalistic, high-performance Todo List application built to practice modern web development workflows and clean DOM manipulation architecture. This project was developed as a submission requirement for a specialized learning platform.
 
 ---
-
+## [Live Demo](https://ahmed-let-front.github.io/TO-DO-LIST/)
+---
 ## ⚡ Performance Matrix
 
 This project was strictly optimized to hit the **Perfect 400/400 Score** across all Google Lighthouse audits. Zero compromises on performance, accessibility, or clean semantic code.
